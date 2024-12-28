@@ -1,0 +1,67 @@
+.carousel-container {
+  width: 80%; /* Adjust width for centering */
+  margin: 0 auto; /* Center carousel */
+  text-align: center; /* Align content */
+}
+
+.slider-item img {
+  max-height: 300px; /* Adjust as needed */
+  width: auto;
+  margin: 0 auto;
+}
+
+.price-and-dots {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center price and dots */
+  margin-top: 10px; /* Add space between carousel and price */
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Space between dots */
+}
+
+.slick-dots li button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  font-weight: bold;
+  color: blue;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between; /* Push buttons to either end */
+  align-items: center; /* Align buttons vertically */
+  width: 100%; /* Full width */
+  padding: 10px 20px;
+  position: absolute; /* Position them over the content */
+  bottom: 10px; /* Place them at the bottom of the page */
+  box-sizing: border-box; /* Include padding in the element's total width/height */
+}
+
+.navigation-button {
+  background-color: #007aff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navigation-button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}

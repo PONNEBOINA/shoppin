@@ -1,0 +1,46 @@
+.collection-switcher {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .switcher-item {
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      background-color: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background-color: #007aff; /* Apple Blue */
+        color: #fff;
+        border-color: #007aff;
+      }
+  
+      &.selected {
+        background-color: #007aff;
+        color: #fff;
+        border-color: #007aff;
+      }
+    }
+  
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      gap: 10px;
+  
+      .switcher-item {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  }
+  

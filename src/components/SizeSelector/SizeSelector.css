@@ -1,0 +1,39 @@
+.size-selector {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  justify-content: center;  /* Center the buttons horizontally */
+}
+
+.size-option {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: #007aff; /* Apple Blue */
+    color: white;
+    border-color: #007aff;
+  }
+
+  &.selected {
+    background-color: #007aff;
+    color: white;
+    border-color: #007aff;
+  }
+
+ 
+}
+
+.adjust{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

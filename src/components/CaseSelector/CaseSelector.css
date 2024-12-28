@@ -1,0 +1,27 @@
+
+.case-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.case-item {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.case-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.case-item:hover {
+  transform: scale(1.1);
+}
+
+.case-item p {
+  margin-top: 5px;
+  font-size: 14px;
+}
